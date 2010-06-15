@@ -82,29 +82,29 @@ en:
       edit_note: uredil opombo
       title: '{{user}} je uredil opombo "{{note}}" v {{page}}'
     create_person:
-      create_person: je bil(a) povabljena v projekt
-      by: preko
-      title: "{{person}} got invited to the project {{project}}"
+      create_person: je bil(a) povabljen(a) k projektu
+      by: preko osebe ##a#
+      title: "{{person}} je bil(a) povabljen(a) k projektu {{project}}"
     delete_person:
-      delete_person: was removed to the project
-      by: by
-      left: left the project
-      title: "{{person}} left the project {{project}}"
+      delete_person: je bil(a) povabljen(a) k projektu
+      by: preko osebe
+      left: je zapustil projekt
+      title: "{{person}} je zapustil projekt {{project}}"
   avatars:
     new:
-      title: Upload an avatar
-      upload: Upload
+      title: Naloži avatar
+      upload: Naloži
     edit:
-      upload_new_image: Upload a new image for your avatar
-      upload: Upload this avatar
+      upload_new_image: Naloži novo sliko za avatar
+      upload: Naloži avatar
     show:
-      save: Save Changes
+      save: Shrani spremembe
   reset_passwords:
     new:
-      title: So you forgot your password?
-      email: Which email did you sign up with?
-      back: Back to Login screen
-      submit: Send me a link to reset my password
+      title: Torej, ste pozabili geslo?
+      email: E-pošta s katero ste se registrirali.
+      back: Nazaj na vpisno stran
+      submit: Pošlji mi povezavo na ponavavljanje gesla.
     create:
       not_found: "We can't find a user with that email: {{email}}<br/>Please check the email address and try again. If that doesn't work, contact us at {{support}}"
       invalid: "The change password URL you visited is either invalid or expired. Try using I Forgot my Password again from the home page.<br/>If that doesn't work, contact us at {{support}}"
