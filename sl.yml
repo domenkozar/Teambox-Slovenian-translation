@@ -959,55 +959,55 @@ en:
     forgot_password:
       subject: "Password retrieval for Teambox"
     notify:
-      project: "Teambox Project:"
+      project: "Teambox Projekt:"
       view_online: "You can <a href='{{link}}'>view this conversation online</a> to answer and attach files."
       reply: "You can also answer to this email to post a reply in the conversation."
       are_watching: " are suscribed to this conversation, and will be notified of future replies."
       stop_watching: "<a href='{{stop_watching_url}}'>Stop watching</a> this thread to stop receiving email notifications."
-      notification_settings: "You can change your <a href='{{url}}'>notification settings</a> for further emails."
-      comment: "Comment on project's wall: "
-      conversation: "Conversation:"
-      task: "Task:"
-      task_list: "Task List:"
-      recent_conversations: "Recent conversations for {{project}}"
-      comments: "{{number}} comments"
-      assigned_to: "Assigned to <b>{{user}}</b>"
-      due_on: "Due on {{date}}"
+      notification_settings: "<a href='{{url}}'>Tukaj</a> lahko spremeniš svoj email naslov za obvestila."
+      comment: "Komentarji na steni projekta: "
+      conversation: "Pogovor:"
+      task: "Opravilo:"
+      task_list: "Seznam opravil:"
+      recent_conversations: "Zadnji pogovori za {{project}}"
+      comments: "{{number}} komentarjev"
+      assigned_to: "Vezano na <b>{{user}}</b>"
+      due_on: "Končni datum {{date}}"
       status: "Status: {{status}}"
-      my_tasks: "More tasks assigned to you in {{project}}"
+      my_tasks: "Več opravil vezanih na tebe v projektu {{project}}"
     upload:
-      file: "File:"
-      uploaded_by: uploaded by
+      file: "Datoteka:"
+      uploaded_by: naloženo od
 
   weakling:
-    default: Must be at least 5 characters
-    error: too short
-    weak: weak
-    average: average
-    strong: strong
+    default: Mora biti vsaj 5 znakov dolgo
+    error: prekratko
+    weak: šibko
+    average: povprečno močno
+    strong: močno
 
   form:
-    cancel: Cancel
+    cancel: Prekliči
 
   page_title:
-    show_projects: Overview
-    index_task_lists: All Task Lists
-    index_conversations: All Conversations
-    index_pages: All Pages
-    index_uploads: All File Uploads
-    create_uploads: File Upload
-    index_projects: All Projects
-    edit_projects: Edit Project
-    index_people: People
-    new_users: Signup
-    new_pages: New Page
-    create_users: Signup
-    edit_users: Edit
-    welcome_users: Welcome!
-    new_projects: New Project
-    archived_task_lists: Archived Tasks
-    new_example_projects: Create an Example Project
-    new_conversations: New Conversation
+    show_projects: Pregled
+    index_task_lists: Seznam vseh opravil
+    index_conversations: Vsi pogovori
+    index_pages: Vse strani
+    index_uploads: Vse naložene datoteke
+    create_uploads: Nalaganje datotek
+    index_projects: Vsi projekti
+    edit_projects: Uredi projekt
+    index_people: Ljudje
+    new_users: Prijava
+    new_pages: Nova stran
+    create_users: Prijava
+    edit_users: Uredi
+    welcome_users: Dobrodošli!
+    new_projects: Nov projekt
+    archived_task_lists: Opravila v arhivu
+    new_example_projects: Ustvari projekt kot primer
+    new_conversations: Nov pogovor
 
   number:
     # Used in number_with_delimiter()
@@ -1060,8 +1060,8 @@ en:
         format: "%n %u"
         units:
           byte:
-            one: "byte"
-            other: "bytes"
+            one: "bajt"
+            other: "bajtov"
           kb: "KB"
           mb: "MB"
           gb: "GB"
@@ -1069,39 +1069,39 @@ en:
 
   # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
   datetime:
-    time_ago: "{{time_ago_in_words}} ago"
+    time_ago: "{{time_ago_in_words}} nazaj"
     distance_in_words:
-      half_a_minute: "half a minute"
+      half_a_minute: "pol minute"
       less_than_x_seconds:
-        one:   "less than 1 second"
-        other: "less than {{count}} seconds"
+        one:   "manj kot 1 sekundo"
+        other: "manj kot {{count}} sekund"
       x_seconds:
-        one:   "1 second"
-        other: "{{count}} seconds"
+        one:   "1 sekundo"
+        other: "{{count}} sekund"
       less_than_x_minutes:
-        one:   "less than a minute"
-        other: "less than {{count}} minutes"
+        one:   "manj kot minuto"
+        other: "manj kot {{count}} minut"
       x_minutes:
-        one:   "1 minute"
-        other: "{{count}} minutes"
+        one:   "1 minuto"
+        other: "{{count}} minut"
       about_x_hours:
-        one:   "about 1 hour"
-        other: "about {{count}} hours"
+        one:   "približno 1 uro"
+        other: "približno {{count}} ur"
       x_days:
-        one:   "1 day"
-        other: "{{count}} days"
+        one:   "1 dan"
+        other: "{{count}} dni"
       about_x_months:
-        one:   "about 1 month"
-        other: "about {{count}} months"
+        one:   "približno 1 mesec"
+        other: "približno {{count}} mescev"
       x_months:
-        one:   "1 month"
-        other: "{{count}} months"
+        one:   "1 mesec"
+        other: "{{count}} mescev"
       about_x_years:
-        one:   "about 1 year"
-        other: "about {{count}} years"
+        one:   "približno 1 leto"
+        other: "približno {{count}} let"
       over_x_years:
-        one:   "over 1 year"
-        other: "over {{count}} years"
+        one:   "več kot 1 leto"
+        other: "več kot {{count}} let"
     prompts:
       year:   "Year"
       month:  "Month"
@@ -1192,32 +1192,32 @@ en:
         description: Description
     errors:
       messages:
-        inclusion: "is not included in the list"
-        exclusion: "is reserved"
-        invalid: "is invalid"
-        confirmation: "doesn't match confirmation"
-        accepted: "must be accepted"
-        empty: "can't be empty"
-        blank: "can't be blank"
-        too_long: "is too long (maximum is {{count}} characters)"
-        too_short: "is too short (minimum is {{count}} characters)"
-        wrong_length: "is the wrong length (should be {{count}} characters)"
-        taken: "has already been taken"
-        not_a_number: "is not a number"
-        greater_than: "must be greater than {{count}}"
-        greater_than_or_equal_to: "must be greater than or equal to {{count}}"
-        equal_to: "must be equal to {{count}}"
-        less_than: "must be less than {{count}}"
-        less_than_or_equal_to: "must be less than or equal to {{count}}"
-        odd: "must be odd"
-        even: "must be even"
-        record_invalid: "Validation failed: {{errors}}"
+        inclusion: "ni vključeno v seznam"
+        exclusion: "je rezervirano"
+        invalid: "ni veljavno"
+        confirmation: "se ne ujema s potrditvijo"
+        accepted: "mora biti sprejeto"
+        empty: "ne sme biti prazno"
+        blank: "ne sme biti prazno"
+        too_long: "je predolgo (največ {{count}} znakov)"
+        too_short: "je prekratko (najmanj {{count}} znakov)"
+        wrong_length: "je napačne dolžine (mora biti {{count}} znakov)"
+        taken: "je že zasedeno"
+        not_a_number: "ni število"
+        greater_than: "mora biti večje {{count}}"
+        greater_than_or_equal_to: "mora biti večje ali enako {{count}}"
+        equal_to: "mora biti enako {{count}}"
+        less_than: "mora biti manjše od {{count}}"
+        less_than_or_equal_to: "mora biti manjše ali enako {{count}}"
+        odd: "mora biti liho"
+        even: "mora biti sodo"
+        record_invalid: "Validacija spodletela: {{errors}}"
       models:
         comment:
           attributes:
             body:
-              no_body_generic: "Please write about what you have done in the box above."
-              no_body_task: "Please write about what you have done for this task in the box above."
+              no_body_generic: "Prosim opišite kar ste naredili v zgornjem okvirju."
+              no_body_task: "Prosim opišite kaj ste naredili za to opravilo v zgornji okvir."
         conversation:
           attributes:
             body:
