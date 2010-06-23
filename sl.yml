@@ -2,7 +2,7 @@
 # Mark missing translations by adding ##### at the end of the line
 en:
   # if latest_announcement is less than 5 characters, it will not be displayed
-  latest_announcement: "Preberi <a href='http://blog.teambox.com'>our blog</a> za več novic o Teambox-u."
+  latest_announcement: "Preberi <a href='http://blog.teambox.com'>naš blog</a> za več novic o Teambox-u."
   common:
     and: in
     or: ali
@@ -811,159 +811,159 @@ en:
       description: Title <i>(optional)</i>
       upload: Upload file
     primer:
-      empty: This project doesn't have any files yet.
-      create_first: Upload the first file to this project!
-      define1: "Ever had problems sharing a file with your team? Teambox makes sharing easy again."
-      define2: "You can upload files here or attach documents to conversations, tasks or pages. "
-      item1: "<b>Bigger files</b>. Upload files of any size and forget about email limitations."
-      item2: "<b>Versioning</b>. Upload new versions of a file and keep track of changes."
-      item3: "<b>Always available</b>. Files stay in context in the project for future reference."
+      empty: Ta projekt še nima nobene datoteke.
+      create_first: Naložite prvo datoteko za ta projekt!
+      define1: "Ste kdaj doživeli težave pri deljenju vaših datotek z ekipo? Teambox oljaša deljenje datotek."
+      define2: "Lahko naložite datoteke sem ali jih dodate k pogovorom, opravilom ali stranem."
+      item1: "<b>Večje datoteke</b>. Naložite daoteteke kakršne koli velikosti in pozabite na nizke omejitve spletne pošte"
+      item2: "<b>Verzioniranje</b>. Naložite novejše verzije datotek in imejte nadzor nad spremembami vsebine"
+   item3: "<b>Vedno dostopno</b>. Datoteke ostanje v kontekstu projekta za prihodnje reference."
     upload:
-      download: Download
-      uploaded_by: Uploaded by
-      remove: Delete
-      on_: "on"
+      download: Prenesi
+      uploaded_by: Naložil
+      remove: Izbriši
+      on_: "dne"
   sessions:
     fields:
-      username_or_email: Email or Username
-      password: Password
-      forgot: Forgot your password?
-      signup: Sign up for an account
+      username_or_email: Email ali uporabniško ime
+      password: Geslo
+      forgot: Pozabili geslo?
+      signup: Ustvarite račun
     new:
-      title: Login
-      video: What's Teambox about?
-      submit: Login
-      login_failed: "Couldn't log you in as {{login}}"
+      title: Vpis
+      video: Kaj Teambox sploh je?
+      submit: Vpis
+      login_failed: "Ni vas uspelo vpisati kot {{login}}"
 
   shared:
     strip:
-      archived: "This project is archived. To edit or comment on this project you must unarchive it on the <a href='{{link}}'>Project Settings page</a>"
+      archived: "Ta projekt je arhiviran. Za urejanje ali komentiranje tega projekta ga morate najprej odarhivirat na <a href='{{link}}'>nastavitvah projekta</a>"
     gantt_banner_primer:
-      title: There are no task lists due to show
+      title: Ni končnih rokov za sezname opravil za prikaz
     upcoming_events_primer:
-      title: There are no tasks due to show
+      title: Ni končnih rokov opravil za prikaz
     projects:
-      projects: Projects
+      projects: Projekti
     archived_projects:
-      archived_projects: Archived Projects
+      archived_projects: Arhivirani projekti
     navigation:
-      welcome: Welcome
-      all_projects: 'All Projects'
+      welcome: Dobrodošli
+      all_projects: 'Vsi projekti'
       new_project: +
     project_settings_navigation:
-      general: General Settings
-      picture: Project Picture
-      deletion: Project Archiving/Deletion
-      ownership: Ownership
+      general: Splošne nastavitve
+      picture: Slike projekta
+      deletion: Arhiviraj projekt/Izbriši
+      ownership: Lastništvo
     project_navigation:
-      overview: Overview
-      all_conversations: All Conversations
-      conversations: Conversations
-      task_lists: Task Lists
-      all_task_lists: All Tasks
-      project_settings: Project Settings
-      all_pages: All Pages
-      people: People
-      pages: Pages
-      time_tracking: Time Tracking
-      login: Login
-      signup: Signup
-      files: Files
-      invitations: Invitations
-      groups: Project Groups
+      overview: Pregled
+      all_conversations: Vsi pogovori
+      conversations: Pogovori
+      task_lists: Seznam opravil
+      all_task_lists: Vsa opravila
+      project_settings: Nastavitve projekta
+      all_pages: Vse strani
+      people: Ljudje
+      pages: Strani
+      time_tracking: Sledenje času...
+      login: Vpis
+      signup: Prijava
+      files: Datoteke
+      invitations: Povabila
+      groups: Projektne skupine
     global_navigation:
-      project_invitations: Project Invitations
-      home: Home
-      logout: Logout
-      login: Login
-      project_invitations: "Invitations ({{count}})"
-      settings: Settings
+      project_invitations: Povabila k projektom
+      home: Domov
+      logout: Odjava
+      login: Prijava
+      project_invitations: "Vabila: ({{count}})"
+      settings: Nastavitve
     public_navigation:
       home: Teambox
-      tour: Tour
-      users: Our Users
-      services: Services
-      community: Community
-      help: Help and Support
-      privacy: Privacy
-      terms: Terms of use
+      tour: Ogled
+      users: Naši uporabniki
+      services: Aplikacije
+      community: Skupnost
+      help: Pomoč in podpora
+      privacy: Zasebnost
+      terms: Pogoji uporabe
     user_navigation:
-      account_settings: Account Settings
-      profile_information: Profile Information
-      profile_picture: Profile Picture
-      notifications: Notifications
-      delete_account: Delete Account...
+      account_settings: Nastavitve računa
+      profile_information: Podatki profila
+      profile_picture: Slike profila
+      notifications: Obvestila
+      delete_account: Izbrišite račun...
     task_navigation:
-      all_tasks: "All Tasks"
-      unarchived_tasks: "Unarchived Tasks"
+      all_tasks: "Vsa opravila"
+      unarchived_tasks: "Nearhivirana opravila"
       my_tasks:
-        one: "My 1 Task"
-        other: "My {{count}} Tasks"
-      my_assigned_tasks: "only tasks assigned to me"
-      everybodys_tasks: "Everybody's Tasks"
-      hide_archived_tasks: "Hide Archived Tasks"
+        one: "Moje Opravilo"
+        other: "Mojih {{count}} Opravil"
+      my_assigned_tasks: "samo opravila vezana name"
+      everybodys_tasks: "Opravila vseh uporabnikov"
+      hide_archived_tasks: "Skrij arhivirana opravila"
     footer:
-      support: Feedback and bugs
-      mobile: Mobile version
-      help: Help
+      support: Izkušnje in težave
+      mobile: Mobilna verzija
+      help: Pomoč
     watchers:
-      unwatch: Unwatch
-      watch: Watch
-      people_watching: "People watching: "
-      nobody_watching: "Nobody is watching"
-      started_watching: "You will now be notified by email of updates."
-      stopped_watching: "You will no longer receive notifications for this item."
+      unwatch: Prenehaj opazovanje
+      watch: Opazuj
+      people_watching: "Opazovalci: "
+      nobody_watching: "Noben ne opazuje"
+      started_watching: "O novicah vas bomo obvestili preko emaila."
+      stopped_watching: "Obvestil o tej zadevi več ne boste prejemali."
     upgrade_browser:
-      upgrade: You're using an outdated version of Internet Explorer. Teambox may not work properly under this version.
+      upgrade: Uporabljate preveč staro verzijo Internet Explorerja. Teambox lahko ne bo deloval optimalno z vašo verzijo.
       ie: Upgrade to Internet Explorer
-      or_install: or install
+      or_install: ali namestite
       chrome: "Chrome,"
       firefox: "Firefox"
       safari: "Safari"
     instructions:
       subscribe_to_feeds: Subscribe to feeds...
-      subscribe_to_calendars: Subscribe to calendars...
+      subscribe_to_calendars: Prijavite se na koledar...
   emailer:
     common:
-      do_not_answer: "Do not answer to this email."
-      answer_above_this_line: "REPLY ABOVE THIS LINE TO POST AN ANSWER"
+      do_not_answer: "Ne odgovarjajte na ta email."
+      answer_above_this_line: "ODGOVORITE NAD TO VRSTCO, DA POVESTE VAŠ ODGOVOR NA TO TEMO"
     invitation:
-      subject: "{{user}} shared [{{project}}] with you"
-      collaborate_with: "{{name}} wants to collaborate with you on Teambox:"
-      you_have_been_invited_to: "You have been invited to the project <b>{{project}}</b>"
-      accept_the_invitation: Accept the invitation to start collaborating
-      current_users: "Current users in this project:"
-      plaintext_link: "If the above link doesn't work, copy and paste the following code into your browser bar: "
-      teambox_is_a_pm_platform: "Teambox is a project management platform made for real-world collaboration."
-      plan_share_and_collaborate: "Plan, share and keep track of what's been done. Simple as it should be."
-      report_abuse: "This email was sent to you by your contact's request. Please report any abuse."
+      subject: "{{user}} je delil/a projekt [{{project}}] z vami"
+      collaborate_with: "{{name}} hoče sodelovati z vami na Teamboxu:"
+      you_have_been_invited_to: "Bili ste povabljeni k sodelovanju pri projektu <b>{{project}}</b>"
+      accept_the_invitation: Sprejmite povabilo in začnite sodelovati
+      current_users: "Trenutni uporabniki, ki delajo na tem projektu:"
+      plaintext_link: "Če zgornja povezava ne dela, kopirajte in prilepite v naslovno vrstico vašega brskalnika naslednjo kodo: "
+      teambox_is_a_pm_platform: "Teambox je platforma za nadzor projektov in sodelovanja v resničnem svetu."
+      plan_share_and_collaborate: "Načrtujte, delite in nadzorujte napredek. Preprosto, kot bi moralo biti."
+      report_abuse: "To sporočilo vam je bilo poslano na zahtevo vašega kontakta. Proimo, da v primeru zlorabe to tudi prijavite."
     invitation_group:
-      subject: "{{user}} shared [{{group}}] with you"
-      you_have_been_invited_to: "You have been invited to the group <b>{{group}}</b>"
+      subject: "{{user}} je delil skupino [{{group}}] z vami"
+      you_have_been_invited_to: "Bili ste povabljeni v skupino <b>{{group}}</b>"
     confirm:
-      subject: "Get started with Teambox"
-      hey: "Hey, {{user_name}}!"
-      follow_the_link: "In order to <b>complete your signup</b> for Teambox, we need you to log in by clicking here:"
-      log_in: "Log into Teambox now!"
-      plaintext_link: "If this doesn't work, copy and paste the following link in your browser's bar:"
-      report_abuse: "You receive this message because you signed up for a Teambox account with {{email}}"
-      problems: "If you have any problems, please contact us at {{support}}"
+      subject: "Začnite uporabljati Teambox"
+      hey: "Pozdravljeni, {{user_name}}!"
+      follow_the_link: "Da <b>zaključite vašo prijavo</b> v sistem Teambox, se morate vpisati z klikom sem:"
+      log_in: "Prijavi se v Teambox zdaj!"
+      plaintext_link: "Če to ne bo delalo, kopirajte in prilepite naslednji naslov v naslovno vrstico vašega spletnega brskalnika:"
+      report_abuse: "To sporočilo ste dobili, ker ste se prijavili na Teambox z naslovom {{email}}"
+      problems: "Če imate kakršne koli težave nas prosim kontaktirajte na {{support}}"
     reset_password:
-      subject: "Your password has successfully been reset"
-      hey: "Hey, {{user_name}}!"
-      follow_the_link: "In order to <b>set a new password</b> for Teambox, we need you to log in with the following link:"
-      log_in: "Log into Teambox now!"
-      plaintext_link: "If this doesn't work, copy and paste the following link in your browser's bar:"
-      report_abuse: "You receive this message because you signed up for a Teambox account with {{email}}"
-      problems: "If you have any problems, please contact us at {{support}}"
+      subject: "Vaše geslo je uspešno bilo ponastavljeno"
+      hey: "Pozdravljeni, {{user_name}}!"
+      follow_the_link: "Če hočeš <b>nastaviti novo geslo</b> za Teambox, se moraš prijaviti sistem preko naslednjega naslova:"
+      log_in: "Prijavi se v Teambox zdaj!"
+      plaintext_link: "Če to ne bo delalo, kopirajte in prilepite naslednji naslov v naslovno vrstico vašega spletnega brskalnika:"
+      report_abuse: "To sporočilo ste dobili, ker ste se prijavili na Teambox z naslovom {{email}}"
+      problems: "Če imate kakršne koli težave nas prosim kontaktirajte na {{support}}"
     forgot_password:
-      subject: "Password retrieval for Teambox"
+      subject: "Vrnitev gesla za Teambox"
     notify:
       project: "Teambox Projekt:"
-      view_online: "You can <a href='{{link}}'>view this conversation online</a> to answer and attach files."
-      reply: "You can also answer to this email to post a reply in the conversation."
-      are_watching: " are suscribed to this conversation, and will be notified of future replies."
-      stop_watching: "<a href='{{stop_watching_url}}'>Stop watching</a> this thread to stop receiving email notifications."
+      view_online: "Lahko <a href='{{link}}'>spremljaš ta pogovor na spletu</a> in odgovarjaš in prilagaš datoteke."
+      reply: "Lahko tudi odgovoriš na ta email in s tem podaš odgovor na to temo v pogovoru."
+      are_watching: " so naročeni na ta pogovor in bojo obveščeni o prihodnjih odgovorih."
+      stop_watching: "<a href='{{stop_watching_url}}'>Prekini opazovanje</a> te teme in prekini obveščanje preko emaila."
       notification_settings: "<a href='{{url}}'>Tukaj</a> lahko spremeniš svoj email naslov za obvestila."
       comment: "Komentarji na steni projekta: "
       conversation: "Pogovor:"
@@ -1103,93 +1103,93 @@ en:
         one:   "več kot 1 leto"
         other: "več kot {{count}} let"
     prompts:
-      year:   "Year"
-      month:  "Month"
-      day:    "Day"
-      hour:   "Hour"
-      minute: "Minute"
-      second: "Second"
+      year:   "Leto"
+      month:  "Mesec"
+      day:    "Dan"
+      hour:   "Ura"
+      minute: "Minuta"
+      second: "Sekunda"
 
   activerecord:
     models:
-      card: Card
-      address: Address
-      email_address: Email
-      phone_number: Phone
-      website: Web
+      card: Kartica
+      address: Naslov
+      email_address: Emil
+      phone_number: Telefonska številka
+      website: Spletna stran
       im: IM
-      social_network: Social network
-      project: Project
-      task_list: Task List
-      task: Task
-      comment: Comment
-      conversation: Conversation
-      page: Page
-      divider: Divider
-      note: Text
-      invitation: Invitation
-      upload: Upload
+      social_network: Socialno omrežje
+      project: Projekt
+      task_list: Seznam opravil
+      task: Opravilo
+      comment: Komentar
+      conversation: Pogovor
+      page: Stran
+      divider: Delilnik
+      note: Tekst
+      invitation: Povabilo
+      upload: Naloži
     attributes:
       card:
-        street: Street
-        city: City
-        state: State
-        zip: ZIP
-        country: Country
+        street: Ulica
+        city: Mesto
+        state: Zvezna država (ZDA)
+        zip: Poštna številka
+        country: Država
       email_address:
-        name: Address
-        account_type: Type
-      phone_number:
-        name: Phone
-        account_type: Type
+        name: Naslov
+        account_type: Tip 
+     phone_number:
+        name: Telefonska številka
+        account_type: Tip
       website:
-        name: Site
+        name: Stran
       im:
-        name: Address
-        account_im_type: Service
-        account_type: Type
+        name: Naslov
+        account_im_type: Servis
+        account_type: Tip
       social_network:
-        name: Address
-        account_network_type: Network
-        account_type: Type
+        name: Naslov
+        account_network_type: Omrežje
+        account_type: Tip
       user:
-        login: Username
-        first_name: First name
-        last_name: Last name
-        biography: Biography
+        login: Uporabniško ime
+        first_name: Ime
+        last_name: Priimek
+        biography: Biografija
         email: Email
-        time_zone: Time zone
-        language: Language
-        first_day_of_week: First day of week
+        time_zone: Časovni pas
+        language: Jezik
+        first_day_of_week: Prvi dan v tednu
       project:
-        name: Name
-        permalink: Permalink
+        name: Ime
+        permalink: Poln naslov
       task_list:
-        name: Name
-        start_on: Start date
-        finish_on: Finish date
+        name: Ime
+        start_on: Datum začetka
+        finish_on: Datum konca
       task:
-        name: Name
+        name: Ime
         status: Status
-        due_on: Due date
+        due_on: Končni datum
       comment:
-        body: Body
-        hours: Hours
+        body: Vsebina
+        hours: Ure
         status: Status
       conversation:
-        name: Name
+        name: Ime
       pages:
-        name: Page
-        description: Description
+        name: Stran
+        description: Opis
       divider:
-        name: Name
+        name: Ime
       note:
-        name: Name
-        body: Body
+        name: Ime
+        body: Vsebina
       invitation:
         email: Email
       upload:
-        description: Description
+        description: Opis
     errors:
       messages:
         inclusion: "ni vključeno v seznam"
