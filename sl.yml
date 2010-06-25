@@ -106,101 +106,101 @@ en:
       back: Nazaj na vpisno stran
       submit: Pošlji mi povezavo na ponavavljanje gesla.
     create:
-      not_found: "We can't find a user with that email: {{email}}<br/>Please check the email address and try again. If that doesn't work, contact us at {{support}}"
-      invalid: "The change password URL you visited is either invalid or expired. Try using I Forgot my Password again from the home page.<br/>If that doesn't work, contact us at {{support}}"
-      password_not_updated: "New password is not valid. Try again."
-      password_updated: "Password was successfully updated. Please log in."
+      not_found: "Ne moremo najti uporabnik z email naslovom: {{email}}<br/>Prosim še enkrat preverite email naslov in ponovno poskusite. V primeru, da še vedno ne bo delovalo, nas prosim kontaktirajte na {{support}}"
+      invalid: "URL za spremembo gesla je ali neveljaven ali pa je mu potekla veljavnost. Poskusite z uporabo Pozabljeno Geslo še enkrat z domače strani.<br/>V primeru, da še vedno ne bo delovalo, nas prosim kontaktirajte na {{support}}"
+      password_not_updated: "Novo geslo ni veljavno. Poskusite ponovno."
+      password_updated: "Geslo je bilo uspešno spremenjeno. Prosim vpišite se."
     sent:
-      title: Reset Password
-      login_link_sent: "We just sent you an email to {{email}} so you can retrieve your password."
-      follow_the_link: "Follow the link inside this email to log into Teambox! If you can't find it, look in the spam folder."
-      not_found: "The email <b>{{email}}</b> doesn't belong to any Teambox user. Maybe you misspelt it?"
-      change_password_now: "You are now logged in. <b>Choose a new password now</b> so you won't forget it!"
+      title: Ponastavitev Gesla
+      login_link_sent: "Glihkar smo vam poslali email na naslov {{email}} tako, da boste lahko spremenili vaše geslo."
+      follow_the_link: "Za vpis v Teambox sledite povezavi v emailu! Če našega sporočila ne morate najti, poglejte med smeti, mogoče jo je vaš klient po pomoti poslal tja."
+      not_found: "Email naslov <b>{{email}}</b> ne pripada nobenemo od uporabnikov Teamboxa. Ste se mogoče zmotili pri črkovanju?"
+      change_password_now: "Sedaj ste vpisani! <b>Spremenite geslo</b>, da ga ne boste pozabili!"
   cards:
     card:
-      phone_numbers: Phone Numbers
-      email_addresses: Email Addresses
-      websites: Websites
-      addresses: Addresses
+      phone_numbers: Telefonska številka
+      email_addresses: Email naslov
+      websites: Spletne strani
+      addresses: Naslov
       ims: IM
-      social_networks: Social Networks
-      vcard: Download vCard
+      social_networks: Socialna omrežja
+      vcard: Prenestie vCard
     field:
-      add_phone_numbers: Phone Number
-      add_email_addresses: Add Email
-      add_websites: Add Website
-      add_addresses: Add Address
-      add_ims: Add IM
-      add_social_networks: Add Social Network
+      add_phone_numbers: Dodajte telefonsko številko
+      add_email_addresses: Dodajte email naslov
+      add_websites: Dodajte spletne strani
+      add_addresses: Dodajte naslov
+      add_ims: Dodajte IM
+      add_social_networks: Dodajte Socialno omrežje
   users:
     form:
-      login: Username
-      first_name: First name
-      last_name: Last name
-      biography: Biography
-      time_zone: Time Zone
-      language: Language
+      login: Uporabniško ime
+      first_name: Ime
+      last_name: Priimek
+      biography: Biografija
+      time_zone: Časovni pas
+      language: Jezik
       email: Email
-      phone: Phone Number
-      phone_for_integration: Optional. For future SMS integration
-      password: Password
-      password_confirmation: Confirm Password
-      sunday: Sunday
-      monday: Monday
-      first_day_of_week: Week starts on
-      change_password: Change password
-      confirm_password: Confirm password
-      use_this_email: "You have invitations to share projects for this email address. If you want to access these projects, don't change this email address. You can change your email address once you've completed the signup process."
-      notify_mentions: "Notify me when I'm mentioned e.g. Howdy @{{login}}! You'll receive an email!"
-      notify_conversations: Notify me when I'm watching a conversation
-      notify_task_lists: Notify me when I'm watching a task list
-      notify_tasks: Notify me when I'm watching a task
-      wants_task_reminder: "Send me a daily email of my tasks"
-      invalid_login: "use only letters, numbers and _"
+      phone: Telefonska številka
+      phone_for_integration: Po želji. Za prihodnjo integracijo obveščanja preko SMSov
+      password: Geslo
+      password_confirmation: Potrdite geslo
+      sunday: Nedelja
+      monday: Ponedeljek
+      first_day_of_week: Teden se začne v
+      change_password: Spremeni geslo
+      confirm_password: Potrdi geslo
+      use_this_email: "Imate vabila za deljenje projektov za ta email naslov. Če hočete dostopati do teh projektov, ne spremenite tega email naslov. Vaš naslov email lahko spremenite ko boste zaključil proces prijave."
+      notify_mentions: "Opozori me, ko sem omenjen, npr. Pozdravljen @{{login}}! Dobili boste email."
+      notify_conversations: Opozori me ko spremljam pogovor
+      notify_task_lists: Opozori me ko spremoljam seznam opravil
+      notify_tasks: Opozori me ko spremljam opravilo
+      wants_task_reminder: "Pošlji mi email z mojimi opravili vsak dan"
+      invalid_login: "uporabite samo črke, številke in _"
       account_deletion:
-        steps_before_1: "To delete your Teambox account, first you need to leave or delete all your current projects."
-        steps_before_2: "This will ensure that no other users will lose data on their projects when you delete your account."
-        steps_before_3: "Leave or delete your current projects and then come back to this page to delete your account."
-        what_will_happen: "After deleting your account, your Teambox profile will not be accessible anymore."
-        delete_my_account: "Delete my account now"
-        account_deleted: "Your account has been deleted. We will miss you!"
-        couldnt_delete_account: "We can't delete your account because you still have active or archived projects."
+        steps_before_1: "Da izbrišete vaš Teambox račun morate najprej zapustiti ali izbrisati vse vaše trenutno projekte."
+        steps_before_2: "To je potrebno, da zagotovimo ostalim uporabnikom na projektu, da se ne bo nič podatkov izgubilo ob vašem izbrisu."
+        steps_before_3: "Zapustite ali izbrišite vaše trenutne projekte, potem pridite nazaj na to stran, da boste lahko izbrisali vaš raučun."
+        what_will_happen: "Po izbrisu vašega Teambox računa, vaš Teambox profil več ne bo dostopen."
+        delete_my_account: "Izbriši moj račun zdaj."
+        account_deleted: "Vaš račun je bil izbrisan. Pogrešali vas bomo!"
+        couldnt_delete_account: "Vašega računa ne moremo izbrisati, ker še imate vedno aktivne ali arhivirane projekte."
       avatar:
-        field: New avatar
-        presence: "You can't upload a blank file"
-        max_size: "File size can't exceed {{mb}}"
-        we_have_this_avatar: "This is the picture we currently have of you:"
-        gravatar_in_use: "We don't have a picture of you, so we're using {{gravatar}}:"
-        upload_here_or_at_gravatar: "You can either upload a picture here or set one on {{gravatar}}."
-        destroy: Delete avatar
+        field: Nov avatar
+        presence: "Ne morete naložiti prazne datoteke"
+        max_size: "Velikost naložene datoteke ne sme presegati {{mb}}"
+        we_have_this_avatar: "To je vaša trenutna slika:"
+        gravatar_in_use: "Nimamo vaše slike, zato uporabljamo {{gravatar}}:"
+        upload_here_or_at_gravatar: "Lahko ali naložite sliko ali nastavite eno na {{gravatar}}."
+        destroy: Izbriši avatar
       tooltips:
-        login: "You need a username to login. People will be able to find you by username. Must be all lowercase, no spaces. You can use undescores."
-        first_name: Up to 20 characters.
-        last_name: Up to 20 characters.
-        email: Enter your real email so your teammates can contact you.
-        password: "Combining letters, numbers, uppercase and lowercase is a good idea."
-        phone: "Preferrably cell phone. Enter it including the country code, e.g. +1 (415) 1234-567"
+        login: "Za vpis je potrebno uporabniško ime. Uporabniki vas bojo našli po vašem uporabniškem imenu. Uporabniško ime lahko vsebuje samo male črke. Lahko uporabite podčrtaje."
+        first_name: Največ 20 znakov
+        last_name: Največ 20 znakov.
+        email: Vnesite vaš pravil email naslov, da vas bojo lahko člani vaše ekipe kontaktirali.
+        password: "Kombiniranje črk, številk, malih in velikih črk je vedno dobra ideja!"
+        phone: "Najraje bi bili, če vnesete mobilni telefon. Vnesite številko skupaj z kodo države, npr. +1 (415) 1234-567"
     new:
-      title: Create an Account
-      submit: Create account
-      no_public_signup: "Public signups are not allowed in this system."
-      you_are_logged_in: "You already have an account. Log out first to sign up as a different user."
-      existing_user: "If you already have an account, <a href='{{login_url}}'>log in</a> or <a href='{{forgot_url}}'>retrieve your password</a>."
-      you_already_have_an_account: "You already have a Teambox account for the address {{email}}. <a href='{{login_link}}'>Log in with this email</a> or <a href='{{reset_password_link}}'>reset your password</a> if you forgot it."
+      title: Ustvari račun
+      submit: Ustvari račun
+      no_public_signup: "Javne prijave niso dovoljene na tem sistemu."
+      you_are_logged_in: "Vi račun že imate. Najprej se odjavite iz trenutnega računa, potem se prijavite za drugo uporabniško ime."
+      existing_user: "Če že imate račun, <a href='{{login_url}}'>se vpišite</a> ali <a href='{{forgot_url}}'>vrnite pozabljeno geslo</a>."
+      you_already_have_an_account: "Vi račun že imate za email naslov {{email}}. <a href='{{login_link}}'>Vpišite se s tem email naslovom</a> ali <a href='{{reset_password_link}}'>resetirajte vaše geslo</a> če ste ga pozabili."
     create:
-      thanks: Thanks for signing up!
-      error: "We couldn't set up that account, sorry. Please try again, or contact an admin (link is above)."
+      thanks: Hvala za prijavo!
+      error: "Ni nam uspelo ustvariti željenega računa, se opravičujemo. Prosim, poskusite ponovno ali kontaktirajte administratorja (naslov je zgoraj)."
     edit:
-      title_settings: Your Account Settings
-      title_profile: Your Profile Settings
-      title_picture: Your Profile Picture
-      title_notifications: Your Notifications
-      title_deletion: Project Archiving/Deletion
-      title_delete: Delete Account
-      submit: Update account
+      title_settings: Nastavitve vašega računa
+      title_profile: Nastavitve vašega profila
+      title_picture: Vaša slika profila
+      title_notifications: Vaša obvestila
+      title_deletion: Arhiviranje/Izbris projekta
+      title_delete: Izbris računa
+      submit: Nadgradite račun
     update:
-      updated: User profile updated!
-      error: "Couldn't save the updated profile. Please correct the mistakes and retry."
+      updated: Uporabniški profil spremenjen!
+      error: "Ni bilo mogoče shraniti spremembprofila. Prosim, popravite napake in poskusite ponovno."
     activation:
       resent: "We've re-sent the activation email. Take a look at your inbox!"
       already_done: "You had already confirmed your email! You can now use Teambox."
